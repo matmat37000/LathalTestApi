@@ -1,6 +1,6 @@
 using HarmonyLib;
 
-namespace LathalTestApi.Patches
+namespace LethalTestApi.Patches
 {
     [HarmonyPatch(typeof(TVScript))]
     public class ExampleTVPatch

@@ -1,10 +1,11 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
     <!-- BepInEx Properties -->
     <PropertyGroup>
         <AssemblyName>me.mathiol.lethaltestapi</AssemblyName>
         <Product>LathalTestApi</Product>
-    </PropertyGroup>
+      <UserSecretsId>e46b6b70-de61-4f34-bfd8-b407b9b7316b</UserSecretsId>
+  </PropertyGroup>
 
     <!-- Set Mod Version with MinVer -->
     <Target Name="SetModVersion" BeforeTargets="AddGeneratedFile" DependsOnTargets="MinVer">
@@ -64,6 +65,8 @@
         <PackageReference Include="BepInEx.Core" Version="5.*" PrivateAssets="all" />
         <PackageReference Include="BepInEx.PluginInfoProps" Version="2.*" PrivateAssets="all" />
         <PackageReference Include="LethalCompany.GameLibs.Steam" Version="*-*" Publicize="true" PrivateAssets="all" />
+        <PackageReference Include="Microsoft.Extensions.Configuration" Version="8.0.0" />
+        <PackageReference Include="Microsoft.Extensions.Configuration.UserSecrets" Version="8.0.0" />
         <PackageReference Include="UnityEngine.Modules" Version="2022.3.9" IncludeAssets="compile" PrivateAssets="all" />
         <PackageReference Include="MinVer" Version="4.*" PrivateAssets="all" />
         <PackageReference Include="TeamBMX.LobbyCompatibility" Version="1.*" PrivateAssets="all" />

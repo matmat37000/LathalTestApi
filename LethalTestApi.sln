@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.11.35222.181
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LathalTestApi", "LathalTestApi\LathalTestApi.csproj", "{105FAEFB-8673-46ED-BA20-DEC030B6EE59}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LethalTestApi", "LethalTestApi\LethalTestApi.csproj", "{105FAEFB-8673-46ED-BA20-DEC030B6EE59}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
